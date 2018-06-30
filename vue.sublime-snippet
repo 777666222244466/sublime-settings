@@ -1,0 +1,41 @@
+<snippet>
+    <content><![CDATA[
+<template>
+    <!--  -->
+</template>
+<script>
+export default {
+    props: {
+        propA: {
+            type: String,
+            default: 'Hello, World!',
+            required: true,
+        },
+        propB: {
+            type: Number,
+            default: 100,
+            required: false,
+        }
+    },
+
+    data() {
+        return {
+            //
+        }
+    },
+
+    mounted() {
+        //
+    },
+
+    methods: {
+        init(){
+            //
+        }
+    }
+}
+</script>
+]]></content>
+    <tabTrigger>vue</tabTrigger>
+    <scope>text.html.vue, source.js.embedded.html</scope>
+</snippet>

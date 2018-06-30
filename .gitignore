@@ -1,0 +1,24 @@
+# Ignore everything...
+*
+
+# ... except preferences
+!.gitignore
+!blade.sublime-settings
+!clog.sublime-snippet
+!CSS.sublime-settings
+!Default (OSX).sublime-keymap
+!dump.sublime-snippet
+!Emmet.sublime-settings
+!factory.sublime-snippet
+!HTML (Twig).sublime-settings
+!lipsum.sublime-snippet
+!Package Control.sublime-settings
+!PHP Companion.sublime-settings
+!PHP.sublime-settings
+!phptest.sublime-snippet
+!Preferences.sublime-settings
+!protectedFunction.sublime-snippet
+!publicFunction.sublime-snippet
+!Sass.sublime-settings
+!SCSS.sublime-settings
+!vue.sublime-snippet

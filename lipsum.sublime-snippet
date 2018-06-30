@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+Integer sit amet euismod diam. Proin sit amet ex sem. Maecenas ultricies lorem in ligula posuere, sit amet pharetra nunc facilisis. Curabitur eu volutpat sem, at sagittis mauris. Vestibulum commodo gravida scelerisque. Donec tincidunt interdum erat eget dictum. Sed hendrerit diam nec enim ullamcorper, at finibus mi fermentum. Maecenas scelerisque suscipit nibh. Pellentesque gravida tortor eros, vel eleifend nisi bibendum at. Donec feugiat euismod dui, nec lacinia ante. Praesent tincidunt, tortor in blandit interdum, sapien nisi dapibus mi, id varius justo mi congue ante. Sed consectetur magna at lacus condimentum, non finibus elit sollicitudin. Cras eleifend erat a ipsum dapibus, a interdum ipsum imperdiet. Sed ultricies mauris at tortor malesuada rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+]]></content>
+	<tabTrigger>lipsum</tabTrigger>
+	<!-- <scope>source.python</scope> -->
+</snippet>
