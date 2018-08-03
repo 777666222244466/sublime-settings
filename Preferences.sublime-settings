@@ -2,7 +2,7 @@
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": false,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-	"draw_white_space": "none",
+	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Operator Mono",
 	"font_options":
