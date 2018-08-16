@@ -7,7 +7,6 @@
 !clog.sublime-snippet
 !CSS.sublime-settings
 !Default (OSX).sublime-keymap
-!dump.sublime-snippet
 !Emmet.sublime-settings
 !factory.sublime-snippet
 !HTML (Twig).sublime-settings
@@ -16,6 +15,8 @@
 !PHP Companion.sublime-settings
 !PHP.sublime-settings
 !Preferences.sublime-settings
+!phpDieDump.sublime-snippet
+!phpDump.sublime-snippet
 !phpMethod.sublime-snippet
 !phpTest.sublime-snippet
 !Sass.sublime-settings
