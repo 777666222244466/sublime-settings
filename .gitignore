@@ -3,6 +3,7 @@
 
 # ... except preferences
 !.gitignore
+!AdvancedNewFile.sublime-settings
 !blade.sublime-settings
 !clog.sublime-snippet
 !CSS.sublime-settings
