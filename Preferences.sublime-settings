@@ -1,17 +1,18 @@
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": false,
+	"caret_style": "phase",
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Operator Mono",
+	"font_face": "OperatorMono-Book",
 	"font_options":
 	[
 		"gray_antialias",
 		"subpixel_antialias"
 	],
 	"font_size": 22,
-	"highlight_line": true,
+	"highlight_line": false,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -29,6 +30,7 @@
 	"material_theme_tree_headings": true,
 	"overlay_scroll_bars": "enabled",
 	"scroll_past_end": true,
+	"show_definitions": false,
 	"show_encoding": true,
 	"tab_size": 4,
 	"theme": "Material-Theme.sublime-theme",
