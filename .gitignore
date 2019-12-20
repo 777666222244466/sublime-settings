@@ -12,6 +12,7 @@
 !factory.sublime-snippet
 !GitGutter.sublime-settings
 !HTML (Twig).sublime-settings
+!JavaScript (Babel).sublime-settings
 !lipsum.sublime-snippet
 !Package Control.sublime-settings
 !PHP Companion.sublime-settings
