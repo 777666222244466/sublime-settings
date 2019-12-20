@@ -3,6 +3,7 @@
 
 # ... except preferences
 !.gitignore
+!LICENSE.md
 !AdvancedNewFile.sublime-settings
 !blade.sublime-settings
 !clog.sublime-snippet
