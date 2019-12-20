@@ -1,37 +1,31 @@
 <snippet>
     <content><![CDATA[
 <template>
-    <!--  -->
+    ${1:\<!--  -->}
 </template>
+
 <script>
 export default {
     props: {
         propA: {
-            type: String,
-            default: 'Hello, World!',
-            required: true,
-        },
-        propB: {
-            type: Number,
-            default: 100,
+            type: Array,
+            default: () => ([
+                { title: 'Hello, World!' },
+            ]),
             required: false,
-        }
+        },
     },
 
-    data() {
-        return {
-            //
-        }
-    },
+    data: () => ({
+        //
+    }),
 
     mounted() {
         //
     },
 
     methods: {
-        init(){
-            //
-        }
+        //
     }
 }
 </script>
