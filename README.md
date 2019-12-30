@@ -8,7 +8,9 @@ To use these settings, close Sublime Text and follow the instructions below.
 
 ### macOS
 
-:warning: **NOTE! This will overwrite existing files in your current `User/` directory, you should backup these files before going any further.**
+:warning: **Important note**
+
+**_This will overwrite existing files in your current `User/` directory, you should backup these files before going any further._**
 
 ```bash
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
