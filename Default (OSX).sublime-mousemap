@@ -1,0 +1,11 @@
+[
+    // Go to definition shortcut
+    // Usage: cmd+click desired e.g class/method
+    {
+        "button": "button1",
+        "count": 1,
+        "modifiers": ["super"],
+        "press_command": "drag_select",
+        "command": "goto_definition"
+    }
+]
