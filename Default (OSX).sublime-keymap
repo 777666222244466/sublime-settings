@@ -12,6 +12,13 @@
     { "keys": ["alt+shift+down"], "command": "select_lines", "args":{"forward": true} },
     { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
 
+    // sublime-phpunit
+    { "keys": ["alt+t"], "command": "run_phpunit_test"},
+    { "keys": ["super+alt+t"], "command": "run_single_phpunit_test"},
+    { "keys": ["super+alt+l+t"], "command": "run_last_phpunit_test"},
+    // { "keys": ["super+shift+t"], "command": "run_phpunit_tests_in_dir"},
+    { "keys": ["super+shift+ctrl+t"], "command": "run_all_phpunit_tests"},
+
     // Emmet to work in JSX files
     {"keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
       [
