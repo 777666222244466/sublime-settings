@@ -1,3 +1,5 @@
 {
-    "disabled_keymap_actions": "reflect_css_value",
+	"disabled_keymap_actions": "reflect_css_value",
+	"telemetry": false,
+	"uid": "249115fc-f909-4eda-9e08-ffba3677a735"
 }
