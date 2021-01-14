@@ -12,7 +12,7 @@
 		"gray_antialias",
 		"subpixel_antialias"
 	],
-	"font_size": 21,
+	"font_size": 22,
 	"highlight_line": false,
 	"ignored_packages":
 	[
@@ -23,8 +23,8 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 14,
-	"line_padding_top": 14,
+	"line_padding_bottom": 25,
+	"line_padding_top": 25,
 	"material_theme_contrast_mode": true,
 	"material_theme_tabs_autowidth": true,
 	"mini_diff": false,
