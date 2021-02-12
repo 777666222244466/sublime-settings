@@ -1,0 +1,71 @@
+<snippet>
+    <content><![CDATA[
+<template>
+    ${1:<div v-if="helloMsg" v-text="helloMsg"></div>}
+
+    <div>{{counter}}</div>
+    <button @click.prevent="incrementCounter">+1</button>
+
+    <div style="margin-top: 30px;" v-text="state.open ? 'open' : 'closed'"></div>
+    <button @click.prevent="toggle">toggle me</button>
+</template>
+
+<script>
+  import { ref, reactive, onMounted, watch } from 'vue';
+
+  export default {
+    components: {},
+
+    props: {
+      user: {
+        type: [Object, Array],
+        default: () => ({
+          name: 'Superman',
+        }),
+      },
+    },
+
+    setup() {
+      const state = reactive({
+        open: false,
+      });
+
+      const toggle = () => {
+        state.open = ! state.open;
+      };
+
+      const counter = ref(0);
+
+      const incrementCounter = () => {
+        counter.value++;
+      };
+
+      const helloMsg = ref('');
+
+      const sayHello = (text) => {
+        helloMsg.value = text;
+      };
+
+      watch(counter, (newValue, oldValue) => {
+        console.log(newValue, oldValue);
+        console.log('The new counter value is: ' + counter.value)
+      });
+
+      onMounted(() => {
+        sayHello('Hey there!');
+      });
+
+      return {
+        state,
+        toggle,
+        incrementCounter,
+        counter,
+        helloMsg,
+      };
+    }
+  }
+</script>
+]]></content>
+    <tabTrigger>vue3</tabTrigger>
+    <scope>text.html.vue, source.js.embedded.html</scope>
+</snippet>
